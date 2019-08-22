@@ -6,7 +6,7 @@ import com.sirniloc.yam.classes.skills.SkillActive;
 public class DamageRedirect extends SkillActive{
 
 	
-	static final int ID = 4;
+	static final int ID = 5;
 	
 	public DamageRedirect() {
 		super("Damage Redirect", 20, 1, 10);

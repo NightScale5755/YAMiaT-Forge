@@ -3,13 +3,12 @@ package com.sirniloc.yam.classes.skills.active;
 import com.sirniloc.yam.character.capability.YAM;
 import com.sirniloc.yam.classes.skills.SkillActive;
 
-public class DoubleStrike extends SkillActive{
-
-	static final int ID = 6;
-	public DoubleStrike() {
-		super("Double Strike", 50, 1, 5);
+public class TippedArrows extends SkillActive{
+	
+	static final int ID = 7;
+	public TippedArrows() {
+		super("Tipped Arrows", 0, 0, 0);
 	}
-
 
 	@Override
 	public boolean doSkillStuff(YAM caster) {

@@ -8,6 +8,8 @@ import com.sirniloc.yam.classes.skills.SkillPassive;
 import com.sirniloc.yam.classes.skills.active.DamageRedirect;
 import com.sirniloc.yam.classes.skills.active.DefyDeath;
 import com.sirniloc.yam.classes.skills.active.DoubleStrike;
+import com.sirniloc.yam.classes.skills.active.TippedArrows;
+import com.sirniloc.yam.classes.skills.passive.CripShot;
 import com.sirniloc.yam.classes.skills.passive.CritHit;
 import com.sirniloc.yam.classes.skills.passive.Evasion;
 import com.sirniloc.yam.classes.skills.passive.Heal;
@@ -26,7 +28,8 @@ public class ClassYAM {
 	public static final ClassYAM[] classes = {
 			new ClassYAM("Warrior",new ISkill[] {new Evasion(), new DamageRedirect()}),
 			new ClassYAM("Healer",new ISkill[] {new Heal(),new DefyDeath()}),
-			new ClassYAM("Rogue",new ISkill[] {new CritHit(),new DoubleStrike()})
+			new ClassYAM("Rogue",new ISkill[] {new CritHit(),new DoubleStrike()}),
+			new ClassYAM("Archer",new ISkill[] {new CripShot(),new TippedArrows()})
 	};
 	
 

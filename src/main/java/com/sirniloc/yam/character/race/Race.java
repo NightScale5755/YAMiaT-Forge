@@ -22,9 +22,13 @@ public class Race implements IRace{
 			new Race("Starborn",0,0,9),
 			new Race("Human","Nordling",3,4,2),
 			new Race("Elf","Woodelf",5,1,3),
-			new Race("Halfelf",1,5),
+			new Race("Halfelf",1,5,3),
 			new Race("Elf","Sunelf",3,1,5),
-			new Race("Human","Bogling",4,3,2)
+			new Race("Human","Bogling",4,3,2),
+			new Race("Supernature","Werewolf",0,6,3),
+			new Race("Supernature","Vampire",3,2,4),
+			new Race("Supernature","Scaleborn",3,5,1)
+			
 			};
 	
 	public static final int RACE_COUNT = RACES.length;

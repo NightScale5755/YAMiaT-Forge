@@ -5,7 +5,7 @@ import com.sirniloc.yam.classes.skills.SkillActive;
 
 public class DefyDeath extends SkillActive{
 	
-	static final int ID = 6;
+	static final int ID = 7;
 	public DefyDeath() {
 		super("Defy Death", 100, 2, 2);
 	}
